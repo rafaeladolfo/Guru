@@ -1,0 +1,7 @@
+/Users/rafael.adolfo/Documents/GitHub/GuruApi/GuruApi/GuruApi/obj/Release/netcoreapp3.1/PubTmp/Out/appsettings.Development.json
+/Users/rafael.adolfo/Documents/GitHub/GuruApi/GuruApi/GuruApi/obj/Release/netcoreapp3.1/PubTmp/Out/appsettings.json
+/Users/rafael.adolfo/Documents/GitHub/GuruApi/GuruApi/GuruApi/obj/Release/netcoreapp3.1/PubTmp/Out/stories.json
+/Users/rafael.adolfo/Documents/GitHub/GuruApi/GuruApi/GuruApi/obj/Release/netcoreapp3.1/PubTmp/Out/GuruApi.dll
+/Users/rafael.adolfo/Documents/GitHub/GuruApi/GuruApi/GuruApi/obj/Release/netcoreapp3.1/PubTmp/Out/GuruApi.deps.json
+/Users/rafael.adolfo/Documents/GitHub/GuruApi/GuruApi/GuruApi/obj/Release/netcoreapp3.1/PubTmp/Out/GuruApi.runtimeconfig.json
+/Users/rafael.adolfo/Documents/GitHub/GuruApi/GuruApi/GuruApi/obj/Release/netcoreapp3.1/PubTmp/Out/GuruApi.pdb

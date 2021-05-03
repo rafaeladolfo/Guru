@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{DE81BB75-9431-4C33-AF27-23F6FB19C011}|Default">
+  <MonoDevelop.Ide.ItemProperties.GuruApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuruApi/Services/IStoriesService.cs">
+    <Files>
+      <File FileName="GuruApi/stories.json" Line="1" Column="1" IsPinned="True" />
+      <File FileName="GuruApi/Startup.cs" Line="49" Column="34" />
+      <File FileName="GuruApi/Services/StoriesService.cs" Line="1" Column="1" />
+      <File FileName="GuruApi/Model/Stories.cs" Line="21" Column="1" />
+      <File FileName="GuruApi/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="GuruApi/Controllers/StoriesController.cs" Line="26" Column="42" />
+      <File FileName="GuruApi/Services/IStoriesService.cs" Line="1" Column="1" />
+      <File FileName="GuruApi/Properties/launchSettings.json" />
+      <File FileName="GuruApi/appsettings.json" />
+      <File FileName="GuruApi/Properties/PublishProfiles/StocksGuruApi - Web Deploy.pubxml" />
+      <File FileName="GuruApi/Model/CryptoStocks.cs" Line="18" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GuruApi" expanded="True">
+            <Node name="GuruApi" expanded="True">
+              <Node name="Model" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
