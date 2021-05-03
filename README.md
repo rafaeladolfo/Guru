@@ -1,6 +1,6 @@
 # Guru
 
-Guru challenge source code
+Guru clone start app
 
 ### Stack
 * Using SwiftUI 
@@ -8,7 +8,7 @@ Guru challenge source code
 * Localization
 
 ### Features
-* Get stories feed from GuruAPI(based on supplied json)
+* Get stories feed from api (based on json)
 * Opens the page using Safari view with readers mode enabled
 * Carousel with progressbar for images
 * Switch view context based on state (idle, loading, error, success)
