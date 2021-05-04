@@ -15,8 +15,12 @@ class NetworkManager {
     let guruProvider = NetworkService<GuruEndPoint>()
 
     // MARK: - Public methods
-    func fetchStories(completion: @escaping ClosureType<GuruStories>, failure: @escaping Failure){
+    func fetchStories(completion: @escaping ClosureType<GuruStories>, failure: @escaping Failure) {
         guruProvider.request(.fetchStories, model: GuruStories.self, completion: completion, failure: failure)
+    }
+
+    func fetchCryptoStocks(completion: @escaping ClosureType<CryptoStocks>, failure: @escaping Failure) {
+        guruProvider.request(.fetchCryptoStocks, model: CryptoStocks.self, completion: completion, failure: failure)
     }
 }
 

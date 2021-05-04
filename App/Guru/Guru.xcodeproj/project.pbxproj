@@ -45,6 +45,8 @@
 		18C3C89F2640449F00E5C3ED /* StocksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3C89E2640449F00E5C3ED /* StocksListView.swift */; };
 		18C3C8A12640675800E5C3ED /* LocalizationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C3C8A02640675800E5C3ED /* LocalizationUtil.swift */; };
 		18C3C8A626406D4100E5C3ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C3C8A826406D4100E5C3ED /* Localizable.strings */; };
+		18FB92CB2640E75000C5AC9C /* CryptoStocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB92CA2640E75000C5AC9C /* CryptoStocks.swift */; };
+		18FB92CD2640E79900C5AC9C /* CryptoStocksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FB92CC2640E79900C5AC9C /* CryptoStocksViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,8 @@
 		18C3C8A02640675800E5C3ED /* LocalizationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationUtil.swift; sourceTree = "<group>"; };
 		18C3C8A726406D4100E5C3ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		18C3C8A926406D4600E5C3ED /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		18FB92CA2640E75000C5AC9C /* CryptoStocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoStocks.swift; sourceTree = "<group>"; };
+		18FB92CC2640E79900C5AC9C /* CryptoStocksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoStocksViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				18C3C8572640401A00E5C3ED /* GuruStories.swift */,
+				18FB92CA2640E75000C5AC9C /* CryptoStocks.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			children = (
 				18C3C891264043C700E5C3ED /* BaseViewModel.swift */,
 				18C3C892264043C700E5C3ED /* StoriesViewModel.swift */,
+				18FB92CC2640E79900C5AC9C /* CryptoStocksViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -363,6 +369,8 @@
 			dependencies = (
 			);
 			name = Guru;
+			packageProductDependencies = (
+			);
 			productName = Guru;
 			productReference = 18C3C82126403AEE00E5C3ED /* Guru.app */;
 			productType = "com.apple.product-type.application";
@@ -435,6 +443,8 @@
 				"pt-BR",
 			);
 			mainGroup = 18C3C81826403AEE00E5C3ED;
+			packageReferences = (
+			);
 			productRefGroup = 18C3C82226403AEE00E5C3ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -486,6 +496,7 @@
 				18C3C86F2640409100E5C3ED /* NetworkMonitor.swift in Sources */,
 				18C3C89C2640447300E5C3ED /* LoadingState.swift in Sources */,
 				18C3C85626403FE100E5C3ED /* HapticEngineManager.swift in Sources */,
+				18FB92CD2640E79900C5AC9C /* CryptoStocksViewModel.swift in Sources */,
 				18C3C86E2640409100E5C3ED /* ApiConfiguration.swift in Sources */,
 				18C3C8882640430600E5C3ED /* CarouselImageView.swift in Sources */,
 				18C3C8692640409100E5C3ED /* GuruEndPoint.swift in Sources */,
@@ -503,6 +514,7 @@
 				18C3C85C2640405000E5C3ED /* Stories.swift in Sources */,
 				18C3C8A12640675800E5C3ED /* LocalizationUtil.swift in Sources */,
 				18C3C8902640439300E5C3ED /* StoriesView.swift in Sources */,
+				18FB92CB2640E75000C5AC9C /* CryptoStocks.swift in Sources */,
 				18C3C8862640430600E5C3ED /* StoriesProgressBarView.swift in Sources */,
 				18C3C82526403AEE00E5C3ED /* GuruApp.swift in Sources */,
 				18C3C894264043C700E5C3ED /* StoriesViewModel.swift in Sources */,
